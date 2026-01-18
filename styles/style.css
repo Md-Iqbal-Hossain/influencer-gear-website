@@ -31,20 +31,21 @@
 /* Header style here  */
 /* Navbar style  */
 .navbar {
-    justify-content: space-between;
-    /* padding: 120px 87px; */
     max-width: 1188px;
     width: 100%;
-    margin: 90px 120px 60px 120px;
-    border: 1px solid black;
+    height: auto;
+    justify-content: space-between;
+    margin: 50px auto 0 auto;
+    /* border: 1px solid black; */
     align-items: center;
 }
 
 .list {
+    height: auto;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
-
+    /* border: 1px solid red; */
+    text-align: center;
 }
 
 .list li {
@@ -67,18 +68,19 @@
 .banner {
     max-width: 1188px;
     width: 100%;
-    margin: 0 auto;
+    height: auto;
+    margin: 50px auto;
     justify-content: space-between;
     /* padding: 120px 87px; */
-    margin: 2px 120px;
-    border: 1px solid black;
+    /* margin: 2px 120px; */
+    /* border: 1px solid black; */
     align-items: center;
 }
 
 .b-description {
     position: relative;
     bottom: 70px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .b-description h1 {
@@ -125,7 +127,7 @@
 .logo {
     max-width: 1110px;
     max-height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     margin-top: 70px;
     margin-bottom: 100px;
@@ -145,7 +147,7 @@
 .cards {
     max-width: 1047px;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 auto;
 }
 
@@ -212,7 +214,7 @@
     max-width: 1110px;
     height: auto;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 100px auto;
     justify-content: space-between;
     align-items: center;
@@ -259,7 +261,7 @@
 
 /* footer styles here  */
 .foot{
-    max-width: 1400px;
+    max-width: 1550px;
     width: 100%;
     height: auto;
     background-color: #0A0826;
@@ -267,13 +269,22 @@
     align-items: center;
 }
 .foot .foot-container{
-    max-width: 262px;
+    max-width: 300px;
     width: 100%;
     margin: 50px auto;
     /* padding: 590px 50px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: #FFFFFF;
     text-align: center;
+}
+.foot .foot-container h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.foot .foot-container p{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: gray;
 }
 
 /* Responsive design  */
@@ -298,7 +309,7 @@
     /* banner styles here  */
     .banner {
         flex-direction: column-reverse;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         align-items: center;
         gap: 100px;
     }
@@ -308,7 +319,7 @@
 
         position: relative;
         bottom: 70px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -325,9 +336,8 @@
     .logo {
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 60%;
+        max-width: 100%;
         height: auto;
-
     }
 
     /* card styles here  */
@@ -355,12 +365,10 @@
         max-width: 1110px;
         height: auto;
         width: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: 100px auto;
         justify-content: space-between;
         align-items: center;
-
-
     }
     .feature .f-des{
         text-align: center;
